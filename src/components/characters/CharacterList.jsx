@@ -5,7 +5,6 @@ import Character from './Character';
 function CharacterList({ characters }) {
     return (
         <ul aria-label='characters'>
-            {/* <Link classname='' */}
             { characters.map((character) => (
                 <li key={character.id}>
                     <Character
