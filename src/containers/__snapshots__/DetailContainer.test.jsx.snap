@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailContainer renders details of character to the page 1`] = `
+<li
+  aria-label="character page"
+  class="character-page"
+>
+  <img />
+  <p />
+  <p />
+  <p />
+  <p />
+</li>
+`;
