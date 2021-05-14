@@ -15,11 +15,10 @@ export const findCharacterById = async (id) => {
     const character = await res.json();
 
     return {
+        image: character.image,
         name: character.name,
         species: character.species,
         status: character.status,
-        location: character.location,
-        image: character.image,
         episode: character.episode
     }
 }

@@ -19,7 +19,7 @@ export default class DetailContainer extends Component {
     render() {
         console.log(this.state.character, 'hi');
         const { character } = this.state;
-        return <CharacterDetail { ...character } />;
+        return <CharacterDetail character={character} />;
     }
 }
 

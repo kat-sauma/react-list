@@ -7,17 +7,15 @@ function CharacterDetail( {
         name, 
         species, 
         status, 
-        location, 
         episode 
 }) {
     return (
         <><Link to={`/`}>
-            <li>
+            <li className='character-page' aria-label='character page'>
                 <img src={image} alt={name} />
                 <p>{name}</p>
                 <p>{species}</p>
                 <p>{status}</p>
-                <p>{location}</p>
                 <p>{episode}</p>
             </li>
         </Link>

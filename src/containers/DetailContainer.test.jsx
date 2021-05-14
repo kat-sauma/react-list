@@ -11,7 +11,7 @@ describe('DetailContainer', () => {
             }
         }}/></MemoryRouter>);
 
-        const li = await screen.findByRole('list', { name: 'character' });
+        const li = await screen.findByRole('listitem', { name: 'character page' });
 
         expect(li).toMatchSnapshot();
     });
